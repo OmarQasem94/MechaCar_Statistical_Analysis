@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-Fictional company AutosRUs' newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. AutosRUs' senior management enlisted assistance from the data analytics team to review the production data for insights that may help the manufacturing team overcome their production issues.
+AutosRUs' newest prototype, the MechaCar, is suffering with production troubles that are blocking the manufacturing team's progress. AutosRUs' senior management enlisted assistance from the data analytics team to review the production data for insights that may help the manufacturing team overcome their production issues.
 
 ## **Linear Regression to Predict MPG**
 
@@ -15,14 +15,14 @@ In this porion of the analysis a multivariate linear regression model was formul
 
 ![MPG_Linear_regression_2](https://github.com/OmarQasem94/MechaCar_Statistical_Analysis/blob/main/Images/MPG_Linear_regression_2.PNG)
 
-The p-value of this multiple linear regression analysis is 5.35 x 10(-11), which is much smaller than the assumed significance level of 0.05%; therefore, there is sufficient evidence to reject the null hypothesis since the slope of the linear model is not zero.
+The p-value of this regression model is 5.35 x 10(-11), which is much smaller than the assumed significance level of 0.05%; therefore, there is sufficient evidence to reject the null hypothesis since the slope of the linear model is not zero. Which means that this module's findings are statistically significant.
 
-This linear model predicts that roughly 71% of MPG predictions of MechaCar prototypes will be correct when using this model. This multiple linear regression model has an R-value of 0.71, which means that the model is successful at explaining 71% of the variation in MPG values.
+This multiple linear regression model has an R-value of 0.71, which means that the model is successful at explaining 71% of the variation in MPG values.
 
 
 ## **Summary Statistics on Suspension Coils**
 
-Design specifications for MechaCar suspension coils dictates that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI).
+The design specifications for MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI).
 
 The variance of the suspension coils for all three lots was 62.29. This is within MechaCar design specifications.
 
